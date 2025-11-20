@@ -25,3 +25,5 @@ All figures used in the written report are stored in the results directory, incl
 • Subtype-specific loss frequencies
 • CNV loss burden per patient
 • Oncoprint-style CNV visualization
+AI Usage Statement: 
+ChatGPT (GPT-5) and Gemini was utilized as an assistive tool for code error detection, syntax clarification, and analyzing statistical outputs. Generated codes and justification will be reviewed, assessed, and ensured correctness within Python before adding information in the final report.
