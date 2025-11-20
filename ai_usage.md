@@ -1,7 +1,15 @@
-AI Explanation:
+# AI Usage Documentation
 
-ChatGPT (GPT-5) and Gemini was utilized as an assistive tool for code error detection, syntax clarification, and analyzing statistical outputs.
-All AI-generated code and explanations were manually verified by running the code in Google Colab and checking that the outputs matched expectations. 
-No figures, statistical values, or CNV results were taken directly from AI, these were all produced in Python.
-Dataset privacy was not a concern because the TARGET-ALL data is publicly available and fully de-identified, and no sensitive information was shared with AI tools.
-Generated codes and justification will be reviewed, assessed, and ensured correctness within Python before adding information in the final report.
+ChatGPT (GPT-5) and Gemini were utilized as assistive tools for code error detection, syntax clarification, workflow organization, and interpretation of statistical outputs throughout this project.
+
+## Verification of AI Outputs
+All AI-generated suggestions were manually verified by:
+- Running the code in Google Colab to confirm correct execution.
+- Comparing outputs with expectations based on the dataset and known ALL CNV patterns.
+- Reviewing statistical explanations against course material and official documentation (pandas, scipy, matplotlib).
+- Editing or discarding any AI-generated content that did not align with the actual Python results.
+
+No figures, statistical values, CNV calls, or biological interpretations were taken directly from AI. All scientific results—including plots, tables, and statistical tests—were produced independently in Python.
+
+## Ethical and Data Privacy Considerations
+No sensitive or identifiable patient information was used. The TARGET-ALL Phase II dataset is public and fully de-identified through cBioPortal, so no protected clinical data were shared with AI tools. AI usage was limited to explanation, debugging, formatting, and organizational assistance. All AI contributions were reviewed and documented to ensure transparency, accuracy, and responsible use.
