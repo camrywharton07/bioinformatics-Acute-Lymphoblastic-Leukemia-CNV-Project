@@ -9,3 +9,19 @@ Data Sources:
 • UCSC Genome Browser: RefSeq CDS coordinates, phyloP100way conservation tracks
 • National Cancer Institute (NCI): background information on acute lymphoblastic leukemia
 Reproductibility Instructions:
+Install the required Python packages listed in environment.txt.
+Open the analysis notebook located in the notebooks folder.
+Run each section of the workflow in order:
+– CNV loading and preprocessing
+– CNV gain/loss assignment
+– Mapping CNVs to RefSeq coding exons
+– Integrating clinical subtype information
+– Running statistical tests
+– Generating each figure
+All output figures will be saved automatically in the results folder.
+Figures:
+All figures used in the written report are stored in the results directory, including:
+• CNV call distribution per gene
+• Subtype-specific loss frequencies
+• CNV loss burden per patient
+• Oncoprint-style CNV visualization
