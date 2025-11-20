@@ -11,6 +11,10 @@ This project explores the research question: Do recurrent copy-number variations
 • UCSC Genome Browser: RefSeq CDS coordinates, phyloP100way conservation tracks
 • National Cancer Institute (NCI): background information on acute lymphoblastic leukemia
 
+## Methods:
+This project was implemented in Python using Google Colab. CNV segment files from cBioPortal were loaded, merged, and converted into gain/loss/neutral calls using pandas and numpy. CNVs were mapped to RefSeq coding exons obtained from the UCSC Genome Browser, and subtype labels were integrated using clinical metadata. Statistical analyses were performed using SciPy (Fisher’s exact test, Mann–Whitney U, and binomial recurrence tests), and all figures were generated using matplotlib. The complete workflow is documented in the notebooks/ directory.
+
+
 ## Reproducibility Instructions:
 Install the required Python packages listed in environment.txt.
 Open the analysis notebook located in the notebooks folder.
