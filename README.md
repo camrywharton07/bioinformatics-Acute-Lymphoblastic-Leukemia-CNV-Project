@@ -1,7 +1,7 @@
 ## bioinformatics-Acute-Lymphoblastic-Leukemia-CNV-Project
 
 ## Genomic and Sequence Analysis of CNVs in Acute Lymphoblastic Leukemia:
-This repository contains the analysis, documentation, and reproducibility materials for my bioinformatics project analyzing recurrent copy-number variations (CNVs) in acute lymphoblastic leukemia (ALL). The aim of this project is to determine whether recurrent CNVs exhibit prefential disruption of evolutionarily conserved coding regions within essential leukemia driver genes. The entire analyses were performed in Python using Google Colab.
+This repository contains the analysis, documentation, and reproducibility materials for my bioinformatics project analyzing recurrent copy-number variations (CNVs) in acute lymphoblastic leukemia (ALL). The aim of this project is to determine whether recurrent CNVs exhibit preferential disruption of evolutionarily conserved coding regions within essential leukemia driver genes. The entire analyses were performed in Python using Google Colab.
 
 ## Project Overview:
 This project explores the research question: Do recurrent copy-number variations (CNVs) in acute lymphoblastic leukemia (ALL) disproportionately disrupt evolutionarily conserved coding regions? To address this question, CNV segment files from the TARGET-ALL Phase II dataset were processed and mapped to RefSeq coding exons for five major ALL genes (IKZF1, PAX5, CDKN2A, CDKN2B, and ETV6). Statistical tests—including Fisher’s exact test, the Mann–Whitney U test, and binomial recurrence testing—were performed to assess subtype-specific CNV losses, CNV load among patients, and recurrence rate. The purpose is to assess whether these recurrent CNVs selectively compromise conserved coding regions, indicating disruption of essential functional domains involved in leukemogenesis.
@@ -11,7 +11,7 @@ This project explores the research question: Do recurrent copy-number variations
 • UCSC Genome Browser: RefSeq CDS coordinates, phyloP100way conservation tracks
 • National Cancer Institute (NCI): background information on acute lymphoblastic leukemia
 
-## Reproductibility Instructions:
+## Reproducibility Instructions:
 Install the required Python packages listed in environment.txt.
 Open the analysis notebook located in the notebooks folder.
 Run each section of the workflow in order:
