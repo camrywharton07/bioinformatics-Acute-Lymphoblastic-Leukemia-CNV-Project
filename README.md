@@ -1,4 +1,4 @@
-## bioinformatics-Acute-Lymphoblastic-Leukemia-CNV-Project
+## Bioinformatics-Acute-Lymphoblastic-Leukemia-CNV-Project
 
 ## Genomic and Sequence Analysis of CNVs in Acute Lymphoblastic Leukemia:
 This repository contains the analysis, documentation, and reproducibility materials for my bioinformatics project analyzing recurrent copy-number variations (CNVs) in acute lymphoblastic leukemia (ALL). The aim of this project is to determine whether recurrent CNVs exhibit preferential disruption of evolutionarily conserved coding regions within essential leukemia driver genes. The entire analyses were performed in Python using Google Colab.
