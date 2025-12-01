@@ -35,7 +35,4 @@ All figures used in the written report are stored in the results directory, incl
 • Oncoprint-style CNV visualization
 
 ## AI Usage Statement: 
-Chat (GPT-5) & Gemini was utilized as an assistive tool for code and error detection, syntax clarification, and analyzing statistical 
-outputs. Every AI-generated code an explanations were manually verified by running the code in Google Colab and checking that the outputs
-matched expectations of the project. No figures, statistical values, or CNV results were taken directly from AI, these were all produced
-in Python. Dataset privacy was not a concern due to the Target-ALL data being publicly available and fully de-identified, and no sensitive information shared with AI tools. Justification will continue to be reviewed, assessed, and ensured correctness within Python before composing the final document.
+Chat (GPT-5) & Gemini was utilized as an assistive tool for code and error detection, syntax clarification, and analyzing statistical outputs. Every AI-generated code was manually verified by running the code in Google Colab and checking that the outputs matched expectations of the project. No figures, statistical values, or CNV results were taken directly from AI; these were all produced in Python. Dataset privacy was not a concern due to the Target-ALL data being publicly available and fully de-identified, and no sensitive information was shared with AI tools. Verification was reviewed, assessed, and ensured correctness within Python for completion of this project. 
